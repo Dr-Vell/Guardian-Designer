@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\david\\Downloads\\Guardian_Designer-1.0-web",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -896,6 +896,24 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"black-bg2.png\",\"extension\":\".png\"}",
         "name": "black-bg2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "intro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "intro.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
         "smoothed": false,
         "userAdded": false
       }
@@ -2995,6 +3013,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Collision",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -3020,7 +3080,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0192755261488844,
+        "zoomFactor": 0.8635277700823953,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3278,6 +3338,166 @@
           "x": 1034,
           "y": 842,
           "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 793,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "9b4d1668-8caa-48fc-9e2d-d5ce551e0bb3",
+          "width": 14,
+          "x": 369,
+          "y": 86,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 804,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "55d2611c-0365-4d8a-844b-4c4aa0e410fa",
+          "width": 21,
+          "x": 1563,
+          "y": 74,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 25,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "e156eb89-4632-4595-8914-a5ac41f0052d",
+          "width": 1215,
+          "x": 383,
+          "y": 852,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 25,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "4aff85dd-1fda-4715-b700-579f31c96429",
+          "width": 1215,
+          "x": 368,
+          "y": 110,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "30552118-7235-40eb-9242-4b3d1031fff2",
+          "width": 39,
+          "x": 387,
+          "y": 563,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "614539e3-045b-4771-967d-8294fb193518",
+          "width": 39,
+          "x": 386,
+          "y": 347,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "7f11846c-9266-4266-b13e-228fe40bb386",
+          "width": 39,
+          "x": 849,
+          "y": 122,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "eacb978a-5a67-4758-888c-d2fd8e8dda9d",
+          "width": 39,
+          "x": 1102,
+          "y": 120,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "54d9ea62-939c-4418-a61a-c8d84e3b9c2f",
+          "width": 39,
+          "x": 1521,
+          "y": 347,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "e1884625-66e6-4bbe-ab62-f02d2e485c78",
+          "width": 39,
+          "x": 1520,
+          "y": 563,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4496,6 +4716,47 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Walls"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Collision",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "Collision",
+                "0.1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -4524,6 +4785,22 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Collision",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -4562,14 +4839,250 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.863527770082394,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
-      "events": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1134,
+          "layer": "",
+          "name": "NewPanelSprite2",
+          "persistentUuid": "e4f48560-31b8-4b5b-8a53-5e98b03e58b7",
+          "width": 1988,
+          "x": -37,
+          "y": -24,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 964,
+          "layer": "",
+          "name": "NewPanelSprite",
+          "persistentUuid": "0c32cb0b-ae6f-498a-9885-fb381b10f8d7",
+          "width": 1372,
+          "x": 276,
+          "y": 75,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 187,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "825a6671-5e81-44be-aca7-b5df298257dd",
+          "width": 187,
+          "x": 874,
+          "y": 798,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 870,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "451e8731-9f7e-49bf-b576-872ebb400d2d",
+          "width": 25,
+          "x": 1100,
+          "y": 92,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 35,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "49e6b631-e1bf-4749-8a9a-b443b8a1fb8a",
+          "width": 289,
+          "x": 816,
+          "y": 103,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 870,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "a33c7a5f-c123-41f6-ac59-9148efbb40aa",
+          "width": 25,
+          "x": 796,
+          "y": 93,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 35,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "162a2685-ba32-4e37-a5d4-bf25d9f410d9",
+          "width": 289,
+          "x": 816,
+          "y": 944,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "6edfa299-b672-4741-bf4d-f78f8835b9cc",
+          "width": 46,
+          "x": 870,
+          "y": 605,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "5cb0de49-b055-4644-909f-fbb0014a4537",
+          "width": 46,
+          "x": 1007,
+          "y": 411,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "69454cb1-0d7f-41ab-a375-3cce09d4e376",
+          "width": 46,
+          "x": 870,
+          "y": 220,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 78,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "be281e62-71bd-4fbb-bace-10e8ee630158",
+          "width": 46,
+          "x": 1010,
+          "y": 103,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 78,
+          "layer": "",
+          "name": "Collision",
+          "persistentUuid": "16d989a2-c54f-47de-8f59-9f82ddfff787",
+          "width": 46,
+          "x": 870,
+          "y": 100,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "intro.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite2",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "black-bg.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Battle"
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -4599,7 +5112,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
