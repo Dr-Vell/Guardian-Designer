@@ -1000,6 +1000,15 @@
         "name": "NewSprite18",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/AIM.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/AIM.png\"}",
+        "name": "AIM",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3980,6 +3989,48 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "cursor",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "AIM",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "AIM",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32.5,
+                        "y": 33.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32.5,
+                        "y": 34
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -4039,6 +4090,18 @@
                 "EnemySpawn",
                 "\"EnemyTimer\""
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "cursor",
+                "MouseX()",
+                "MouseY()",
+                ""
+              ]
             }
           ]
         },
@@ -4094,6 +4157,42 @@
                 "CursorY()",
                 "0",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "cursor",
+                "=",
+                "MouseX()",
+                "=",
+                "MouseY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "CacheSouris"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "cursor",
+                "=",
+                "999"
               ]
             }
           ]
