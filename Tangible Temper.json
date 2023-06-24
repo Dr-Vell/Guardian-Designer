@@ -3887,6 +3887,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 198,
+          "layer": "",
+          "name": "Boost",
+          "persistentUuid": "fbd182eb-f7d2-444e-b3da-9494db01aaf3",
+          "width": 610,
+          "x": 392,
+          "y": 160,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4749,6 +4765,25 @@
               "topMargin": 10,
               "width": 192
             }
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Boost",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[outline=yellow]+ Fire rate![/outline]",
+            "opacity": 255,
+            "fontSize": 90,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
           }
         }
       ],
@@ -5729,7 +5764,7 @@
               "parameters": [
                 "CopperRedBar",
                 "+",
-                "10",
+                "1",
                 ""
               ]
             }
@@ -6555,6 +6590,16 @@
                     "yes",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=red]+ WRONG![/outline]\""
+                  ]
                 }
               ]
             }
@@ -6673,6 +6718,16 @@
                     "20",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=yellow]+ Fire rate![/outline]\""
+                  ]
                 }
               ]
             },
@@ -6785,6 +6840,16 @@
                     "=",
                     "30",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=yellow]SHOTGUN![/outline]\""
                   ]
                 }
               ]
@@ -7018,6 +7083,16 @@
                     "Multishot",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=yellow]+ Fire rate![/outline]\""
                   ]
                 }
               ]
@@ -7328,6 +7403,16 @@
                     "35",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=yellow]+ Fire rate![/outline]\""
+                  ]
                 }
               ]
             },
@@ -7441,6 +7526,16 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=yellow]AK-47![/outline]\""
+                  ]
                 }
               ]
             },
@@ -7513,6 +7608,16 @@
                     "Multishot",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=yellow]+ Fire rate![/outline]\""
                   ]
                 }
               ]
@@ -7762,6 +7867,16 @@
                     "25",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=yellow]+ Fire rate![/outline]\""
+                  ]
                 }
               ]
             },
@@ -7914,6 +8029,16 @@
                     "=",
                     "40",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=yellow]+ 1 bullet![/outline]\""
                   ]
                 }
               ]
@@ -8108,6 +8233,16 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "Boost",
+                    "=",
+                    "\"[outline=yellow]MINIGUN![/outline]\""
+                  ]
                 }
               ]
             },
@@ -8215,6 +8350,53 @@
                 "=",
                 "0",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Boost\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Boost",
+                "=",
+                "105"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Boost\"",
+                ">=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Boost",
+                "=",
+                "-99"
               ]
             }
           ]
