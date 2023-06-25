@@ -4790,7 +4790,7 @@
             "fontSize": 90,
             "visible": true,
             "color": "0;0;0",
-            "fontFamily": "Arial",
+            "fontFamily": "NESCyrillic.ttf",
             "align": "left",
             "wordWrap": true
           }
@@ -8491,10 +8491,31 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.781748642545176,
+        "zoomFactor": 0.7077142870146655,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Guide",
+          "objects": [
+            {
+              "name": "GuideBox1"
+            },
+            {
+              "name": "GuideTitle"
+            },
+            {
+              "name": "GuideText2"
+            },
+            {
+              "name": "GuideBox2"
+            },
+            {
+              "name": "GuideText1"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -8506,8 +8527,8 @@
           "name": "NewPanelSprite2",
           "persistentUuid": "e4f48560-31b8-4b5b-8a53-5e98b03e58b7",
           "width": 1988,
-          "x": -37,
-          "y": -24,
+          "x": -27,
+          "y": -21,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -8759,14 +8780,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 588,
+          "height": 593,
           "layer": "",
-          "name": "Guide1",
+          "name": "GuideBox1",
           "persistentUuid": "a1c8d39e-d686-4377-9f34-3c87e06dc7d6",
-          "width": 529,
-          "x": 245,
-          "y": 218,
-          "zOrder": -10,
+          "width": 530,
+          "x": 220,
+          "y": 225,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8777,12 +8798,12 @@
           "depth": 0,
           "height": 593,
           "layer": "",
-          "name": "Guide2",
+          "name": "GuideBox2",
           "persistentUuid": "9150186b-9ab2-48a4-ae8f-e14aa03bf0e2",
           "width": 530,
           "x": 1173,
           "y": 225,
-          "zOrder": -14,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8791,14 +8812,46 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 547,
+          "height": 457,
           "layer": "",
-          "name": "Guide3",
-          "persistentUuid": "9d2a42b3-bf23-4031-910b-be7b98789c9e",
-          "width": 618,
-          "x": 646,
-          "y": 388,
-          "zOrder": -15,
+          "name": "GuideText1",
+          "persistentUuid": "d3fec6ac-cf03-4a18-8418-a62b6bbc3925",
+          "width": 420,
+          "x": 272,
+          "y": 335,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 458,
+          "layer": "",
+          "name": "GuideText2",
+          "persistentUuid": "9496613e-1bb1-47f4-9e22-3a63f1a8a3d4",
+          "width": 391,
+          "x": 1241,
+          "y": 321,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 56,
+          "layer": "",
+          "name": "GuideTitle",
+          "persistentUuid": "c0554d81-0841-4923-b887-f04da875abfb",
+          "width": 431,
+          "x": 281,
+          "y": 284,
+          "zOrder": 99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9012,7 +9065,7 @@
           "bottomMargin": 0,
           "height": 32,
           "leftMargin": 0,
-          "name": "Guide1",
+          "name": "GuideBox1",
           "rightMargin": 0,
           "tags": "",
           "texture": "New image2",
@@ -9029,7 +9082,7 @@
           "bottomMargin": 0,
           "height": 32,
           "leftMargin": 0,
-          "name": "Guide2",
+          "name": "GuideBox2",
           "rightMargin": 0,
           "tags": "",
           "texture": "New image2",
@@ -9043,20 +9096,60 @@
         },
         {
           "assetStoreId": "",
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "name": "Guide3",
-          "rightMargin": 0,
+          "name": "GuideText1",
           "tags": "",
-          "texture": "New image2",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 32,
+          "type": "BBText::BBText",
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [],
+          "content": {
+            "text": "Here's a list of ideas to prevent this vulnerability:\n\n - Implement and follow a secure development lifecycle by collaborating with application security professionals who can assist in evaluating and designing security and privacy controls.\n\n - Establish and utilize a library of secure design patterns or ready-to-use components to ensure a more secure development process.\n\n - Utilize threat modeling to identify potential vulnerabilities and risks in critical areas such as authentication, access control, business logic, and key workflows.\n\n - Incorporate security language and controls into user stories to ensure that security considerations are integrated throughout the development process.",
+            "opacity": 255,
+            "fontSize": 22,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "NESCyrillic.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "GuideText2",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": " - Implement plausibility checks at each tier of your application, ranging from the frontend to the backend, to validate the integrity and security of the system.\n\n - Create unit and integration tests to validate that critical workflows are resistant to potential threats outlined in the threat model. Compile use-cases and misuse-cases for each tier of the application.\n\n - Segregate different layers of the system and network based on their exposure and protection requirements to enhance security.\n\n - Implement robust segregation of tenants across all tiers to ensure secure multi-tenancy.\n\n - Enforce limitations on resource consumption by users or services to prevent excessive utilization.",
+            "opacity": 255,
+            "fontSize": 23,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "NESCyrillic.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "GuideTitle",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[shadow=brown]INTRO[/shadow]",
+            "opacity": 255,
+            "fontSize": 50,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "NESCyrillic.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
         }
       ],
       "events": [
@@ -9115,10 +9208,158 @@
           "actions": [
             {
               "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "GuideTitle",
+                "=",
+                "\"[shadow=brown]INTRO[/shadow]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "GuideText1",
+                "=",
+                "\"The concept of insecure design encompasses various vulnerabilities referred to as missing or ineffective control design. It is crucial to prioritize application security right from the initial design phase when developing a web application.\n\n\nA secure design approach involves a culture and methodology that consistently assesses potential threats and ensures that the code is meticulously designed and tested to mitigate known attack techniques.\n\n\nDeveloping secure software necessitates implementing a secure development lifecycle, incorporating secure design patterns, following a paved road methodology, utilizing a secured component library, employing appropriate tools, and conducting threat modeling.\n\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "GuideText2",
+                "=",
+                "\"What impact can this have on my company?\n\n- Exposure and potential modification of data by a cybercriminal. \n\n - Unauthorized access to the server/application by a cybercriminal with administrator or user privileges.\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ChangePlan"
               },
               "parameters": [
-                "Guide1",
+                "Guide",
+                "=",
+                "99"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GuideArea2",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "GuideTitle",
+                "=",
+                "\"[shadow=brown]ATTACK[/shadow]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "GuideText1",
+                "=",
+                "\"Scenario #1:  When it comes to the development of a web application, it is crucial to avoid using a questions and answers credential recovery workflow. This approach is prohibited by NIST 800-63b, the OWASP ASVS, and the OWASP Top 10 due to its inherent security risks. Since multiple individuals can know the answers, questions and answers cannot be relied upon as evidence of identity. Therefore, it is necessary to eliminate such code and implement a more secure design.\n\nScenario #2:  A cinema chain offers group booking discounts, but there is a requirement of a deposit if the number of attendees exceeds fifteen. In this scenario, attackers could potentially exploit this flow by attempting to book six hundred seats across all cinemas with just a few requests. This could lead to a significant loss of income. It is essential to consider the potential threat and thoroughly test the system to prevent such attacks\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "GuideText2",
+                "=",
+                "\"Scenario #3: A retail chain’s e-commerce website does not have protection against bots run by scalpers buying high-end video cards to resell auction websites. This creates terrible publicity for the video card makers and retail chain owners and enduring bad blood with enthusiasts who cannot obtain these cards at any price. Careful anti-bot design and domain logic rules, such as purchases made within a few seconds of availability, might identify inauthentic purchases and rejected such transactions.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Guide",
+                "=",
+                "99"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "GuideArea3",
+                "Player",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "GuideTitle",
+                "=",
+                "\"[shadow=brown]DEFENSE[/shadow]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "GuideText1",
+                "=",
+                "\"Here's a list of ideas to prevent this vulnerability:\n\n - Implement and follow a secure development lifecycle by collaborating with application security professionals who can assist in evaluating and designing security and privacy controls.\n\n - Establish and utilize a library of secure design patterns or ready-to-use components to ensure a more secure development process.\n\n - Utilize threat modeling to identify potential vulnerabilities and risks in critical areas such as authentication, access control, business logic, and key workflows.\n\n - Incorporate security language and controls into user stories to ensure that security considerations are integrated throughout the development process.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "GuideText2",
+                "=",
+                "\" - Implement plausibility checks at each tier of your application, ranging from the frontend to the backend, to validate the integrity and security of the system.\n\n - Create unit and integration tests to validate that critical workflows are resistant to potential threats outlined in the threat model. Compile use-cases and misuse-cases for each tier of the application.\n\n - Segregate different layers of the system and network based on their exposure and protection requirements to enhance security.\n\n - Implement robust segregation of tenants across all tiers to ensure secure multi-tenancy.\n\n - Enforce limitations on resource consumption by users or services to prevent excessive utilization.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Guide",
                 "=",
                 "99"
               ]
@@ -9140,53 +9381,7 @@
                 "",
                 ""
               ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Guide1",
-                "=",
-                "-10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "GuideArea2",
-                "Player",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Guide2",
-                "=",
-                "99"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
                 "inverted": true,
@@ -9199,53 +9394,7 @@
                 "",
                 ""
               ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Guide2",
-                "=",
-                "-10"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "GuideArea3",
-                "Player",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "Guide3",
-                "=",
-                "99"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
                 "inverted": true,
@@ -9266,7 +9415,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "Guide3",
+                "Guide",
                 "=",
                 "-10"
               ]
