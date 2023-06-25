@@ -3828,7 +3828,7 @@
           "width": 2010,
           "x": -40,
           "y": -48,
-          "zOrder": -10,
+          "zOrder": -100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3837,14 +3837,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 109,
+          "height": 168,
           "layer": "",
           "name": "Question",
           "persistentUuid": "4c72b2c5-b890-4c0a-a3fa-157d218093f8",
-          "width": 922,
-          "x": 523,
-          "y": 154,
-          "zOrder": -10,
+          "width": 1109,
+          "x": 419,
+          "y": 104,
+          "zOrder": -99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3853,14 +3853,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 123,
+          "height": 129,
           "layer": "",
           "name": "ButtonA",
           "persistentUuid": "f45218a4-0242-4e80-b6a9-9a64d22b620c",
-          "width": 920,
-          "x": 514,
+          "width": 1108,
+          "x": 418,
           "y": 293,
-          "zOrder": -10,
+          "zOrder": -99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3873,10 +3873,10 @@
           "layer": "",
           "name": "ButtonB",
           "persistentUuid": "d9d4066f-16e1-483d-ba42-1c71aab8761c",
-          "width": 923,
-          "x": 516,
-          "y": 492,
-          "zOrder": -10,
+          "width": 1106,
+          "x": 419,
+          "y": 479,
+          "zOrder": -99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3889,10 +3889,10 @@
           "layer": "",
           "name": "ButtonC",
           "persistentUuid": "36159f7e-4b79-4d25-8b43-3a06bc449cce",
-          "width": 923,
-          "x": 512,
-          "y": 682,
-          "zOrder": -10,
+          "width": 1109,
+          "x": 423,
+          "y": 677,
+          "zOrder": -99,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5994,7 +5994,7 @@
               "parameters": [
                 "Question",
                 "=",
-                "\"[outline=yellow]What's the web vulnerability known as Insecure Design?[/outline]\""
+                "\"[outline=yellow]What does Insecure Design in web application development refer to?[/outline]\""
               ]
             },
             {
@@ -6003,7 +6003,7 @@
               },
               "parameters": [
                 "ButtonA",
-                "\"Option A Question 1\"",
+                "\"Missing or ineffective control design resulting in vulnerabilities\"",
                 ""
               ]
             },
@@ -6013,7 +6013,7 @@
               },
               "parameters": [
                 "ButtonB",
-                "\"Option B Question 1\"",
+                "\"Effective control design and vulnerability mitigation\"",
                 ""
               ]
             },
@@ -6023,7 +6023,7 @@
               },
               "parameters": [
                 "ButtonC",
-                "\"Option C Question 1\"",
+                "\"Prioritizing application security during the initial design phase\"",
                 ""
               ]
             }
@@ -6052,7 +6052,7 @@
               "parameters": [
                 "Question",
                 "=",
-                "\"[outline=yellow]Question 2[/outline]\""
+                "\"[outline=yellow]What are some measures for developing secure software?[/outline]\""
               ]
             },
             {
@@ -6061,7 +6061,7 @@
               },
               "parameters": [
                 "ButtonA",
-                "\"Option A Question 2\"",
+                "\"Implementing an insecure development lifecycle\"",
                 ""
               ]
             },
@@ -6071,7 +6071,7 @@
               },
               "parameters": [
                 "ButtonB",
-                "\"Option B Question 2\"",
+                "\"Avoiding threat modeling and secure design patterns\"",
                 ""
               ]
             },
@@ -6081,7 +6081,7 @@
               },
               "parameters": [
                 "ButtonC",
-                "\"Option C Question 2\"",
+                "\"Employing a secure development lifecycle, secure design patterns, and threat modeling\"",
                 ""
               ]
             }
@@ -6110,7 +6110,7 @@
               "parameters": [
                 "Question",
                 "=",
-                "\"[outline=yellow]Question 3[/outline]\""
+                "\"[outline=yellow]What is a potential impact of insecure design on a company?[/outline]\""
               ]
             },
             {
@@ -6119,7 +6119,7 @@
               },
               "parameters": [
                 "ButtonA",
-                "\"Option A Question 3\"",
+                "\"Exposure and potential modification of data by cybercriminals\"",
                 ""
               ]
             },
@@ -6129,7 +6129,7 @@
               },
               "parameters": [
                 "ButtonB",
-                "\"Option B Question 3\"",
+                "\"Improved data protection and security measures\"",
                 ""
               ]
             },
@@ -6139,7 +6139,7 @@
               },
               "parameters": [
                 "ButtonC",
-                "\"Option C Question 3\"",
+                "\"Increased efficiency and productivity in application development\"",
                 ""
               ]
             }
@@ -6168,7 +6168,7 @@
               "parameters": [
                 "Question",
                 "=",
-                "\"[outline=yellow]Question 4[/outline]\""
+                "\"[outline=yellow]Why is it crucial to avoid using a questions and answers credential recovery workflow in web application development?[/outline]\""
               ]
             },
             {
@@ -6177,7 +6177,7 @@
               },
               "parameters": [
                 "ButtonA",
-                "\"Option A Question 3\"",
+                "\"It improves user experience.\"",
                 ""
               ]
             },
@@ -6187,7 +6187,7 @@
               },
               "parameters": [
                 "ButtonB",
-                "\"Option B Question 3\"",
+                "\"It violates NIST 800-63b guidelines.\"",
                 ""
               ]
             },
@@ -6197,7 +6197,7 @@
               },
               "parameters": [
                 "ButtonC",
-                "\"Option C Question 3\"",
+                "\"It is more cost-effective.\"",
                 ""
               ]
             }
@@ -6226,7 +6226,7 @@
               "parameters": [
                 "Question",
                 "=",
-                "\"[outline=yellow]Question 5[/outline]\""
+                "\"[outline=yellow]What is the potential consequence of attackers exploiting the group booking flow without a deposit requirement?[/outline]\""
               ]
             },
             {
@@ -6235,7 +6235,7 @@
               },
               "parameters": [
                 "ButtonA",
-                "\"Option A Question 3\"",
+                "\"Increased attendance at cinemas.\"",
                 ""
               ]
             },
@@ -6245,7 +6245,7 @@
               },
               "parameters": [
                 "ButtonB",
-                "\"Option B Question 3\"",
+                "\"Improved customer satisfaction.\"",
                 ""
               ]
             },
@@ -6255,7 +6255,7 @@
               },
               "parameters": [
                 "ButtonC",
-                "\"Option C Question 3\"",
+                "\"Loss of income for the cinema chain.\"",
                 ""
               ]
             }
@@ -6284,7 +6284,7 @@
               "parameters": [
                 "Question",
                 "=",
-                "\"[outline=yellow]Question 6[/outline]\""
+                "\"[outline=yellow]How can careful anti-bot design and domain logic rules help mitigate the issue of scalpers buying high-end video cards on the retail chain's e-commerce website?[/outline]\""
               ]
             },
             {
@@ -6293,7 +6293,7 @@
               },
               "parameters": [
                 "ButtonA",
-                "\"Option A Question 3\"",
+                "\"By increasing publicity for video card makers.\"",
                 ""
               ]
             },
@@ -6303,7 +6303,7 @@
               },
               "parameters": [
                 "ButtonB",
-                "\"Option B Question 3\"",
+                "\"By identifying and rejecting inauthentic purchases.\"",
                 ""
               ]
             },
@@ -6313,7 +6313,7 @@
               },
               "parameters": [
                 "ButtonC",
-                "\"Option C Question 3\"",
+                "\"By reducing bad blood with enthusiasts.\"",
                 ""
               ]
             }
@@ -6342,7 +6342,7 @@
               "parameters": [
                 "Question",
                 "=",
-                "\"[outline=yellow]Question 7[/outline]\""
+                "\"[outline=yellow]What should be done to identify potential vulnerabilities and risks in critical areas during the development process?[/outline]\""
               ]
             },
             {
@@ -6351,7 +6351,7 @@
               },
               "parameters": [
                 "ButtonA",
-                "\"Option A Question 3\"",
+                "\"Implement plausibility checks at each tier of the application\"",
                 ""
               ]
             },
@@ -6361,7 +6361,7 @@
               },
               "parameters": [
                 "ButtonB",
-                "\"Option B Question 3\"",
+                "\"Utilize threat modeling\"",
                 ""
               ]
             },
@@ -6371,7 +6371,7 @@
               },
               "parameters": [
                 "ButtonC",
-                "\"Option C Question 3\"",
+                "\"Create unit and integration tests\"",
                 ""
               ]
             }
@@ -6400,7 +6400,7 @@
               "parameters": [
                 "Question",
                 "=",
-                "\"[outline=yellow]Question 8[/outline]\""
+                "\"[outline=yellow]How can security considerations be integrated throughout the development process?[/outline]\""
               ]
             },
             {
@@ -6409,7 +6409,7 @@
               },
               "parameters": [
                 "ButtonA",
-                "\"Option A Question 3\"",
+                "\"Incorporate security language and controls into user stories\"",
                 ""
               ]
             },
@@ -6419,7 +6419,7 @@
               },
               "parameters": [
                 "ButtonB",
-                "\"Option B Question 3\"",
+                "\"Establish and utilize a library of secure design patterns\"",
                 ""
               ]
             },
@@ -6429,7 +6429,7 @@
               },
               "parameters": [
                 "ButtonC",
-                "\"Option C Question 3\"",
+                "\"Enforce limitations on resource consumption\"",
                 ""
               ]
             }
@@ -6458,7 +6458,7 @@
               "parameters": [
                 "Question",
                 "=",
-                "\"[outline=yellow]Question 9[/outline]\""
+                "\"[outline=yellow]What is the recommended approach to enhance security in a multi-tenant environment?[/outline]\""
               ]
             },
             {
@@ -6467,7 +6467,7 @@
               },
               "parameters": [
                 "ButtonA",
-                "\"Option A Question 3\"",
+                "\"Utilize threat modeling to identify vulnerabilities\"",
                 ""
               ]
             },
@@ -6477,7 +6477,7 @@
               },
               "parameters": [
                 "ButtonB",
-                "\"Option B Question 3\"",
+                "\"Establish and follow a secure development lifecycle\"",
                 ""
               ]
             },
@@ -6487,7 +6487,7 @@
               },
               "parameters": [
                 "ButtonC",
-                "\"Option C Question 3\"",
+                "\"Implement robust segregation of tenants across all tiers\"",
                 ""
               ]
             }
